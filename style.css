@@ -53,16 +53,16 @@ header {
   text-align: center;
 }
 
-.main-cont {
-  height: 60vh;
-}
-
-.left , .center , .right {
+.logo , .titolo , .text {
   float: left;
   text-align: center;
   width: 33.3333%;
 }
 
-.img-dim img {
+.logo img {
   width: 100px;
+}
+
+.left , .right {
+  float: left;
 }
