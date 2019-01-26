@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
 }
 
 .container {
@@ -43,7 +44,7 @@ body {
 }
 
 .nav-right {
-  float: right;
+  float: left;
 }
 
 header {
@@ -73,15 +74,20 @@ p {
   color: #b2b2b2;
 }
 
-.logo img {
+.logo > img {
   width: 150px;
 }
 
 .left , .right {
   float: left;
-  width: 50%;
+  width: 40%;
+  margin: 5%;
 }
 
 .right {
-  height: 397.97px;
+  height: 263.16px;
+}
+
+.left > img {
+  width: 300px;
 }
