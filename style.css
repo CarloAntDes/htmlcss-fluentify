@@ -19,6 +19,11 @@ body {
   clear: both;
 }
 
+.main-cont {
+  width: 100%;
+
+}
+
 .mt-20 {
   margin-top: 20px;
 }
@@ -34,6 +39,7 @@ body {
 
 .nav-left {
   float: left;
+  font-weight: bold;
 }
 
 .nav-right {
@@ -56,13 +62,26 @@ header {
 .logo , .titolo , .text {
   float: left;
   text-align: center;
-  width: 33.3333%;
+  width: 33.3333%
+}
+
+.titolo {
+  color: #7fb802;
+}
+
+p {
+  color: #b2b2b2;
 }
 
 .logo img {
-  width: 100px;
+  width: 150px;
 }
 
 .left , .right {
   float: left;
+  width: 50%;
+}
+
+.right {
+  height: 397.97px;
 }
