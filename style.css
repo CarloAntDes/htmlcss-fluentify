@@ -9,41 +9,17 @@ body {
   font-size: 14px;
 }
 
-.container {
-  width: 70vw;
-  margin: auto;
-}
-
-.navbar {
-  display: inline-block;
-  text-align: center;
-  height: 100px;
-  line-height: 100px;
-  width: 100%;
-
-}
-
-.clear-fix {
-  display: table;
-  content: "";
-  clear: both;
-}
-
-.main-cont {
-  width: 100%;
-}
-
-.mt-20 {
-  margin-top: 20px;
-}
-
 .blue {
   background-color: #0d325a;
   color: white;
 }
 
-.grey {
-  background-color: #f9f9f9
+.navbar {
+  display: inline-block;
+  text-align: center;
+  height: 10vh;
+  line-height: 10vh;
+  width: 100%;
 }
 
 .nav-left , .nav-cent , .nav.right , .logo , .titolo , .text {
@@ -54,6 +30,10 @@ body {
 
 .navbar * span {
   margin: 5px;
+}
+
+.grey {
+  background-color: #f9f9f9
 }
 
 header {
@@ -69,16 +49,35 @@ header {
   text-align: center;
 }
 
+p {
+  color: #b2b2b2;
+}
+
+.clear-fix {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.container {
+  width: 70vw;
+  margin: auto;
+}
+
+.main-cont {
+  width: 100%;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
 .logo , .titolo , .text {
   text-align: center;
 }
 
 .titolo {
   color: #7fb802;
-}
-
-p {
-  color: #b2b2b2;
 }
 
 .logo > img {
