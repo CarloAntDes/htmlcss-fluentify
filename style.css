@@ -16,7 +16,10 @@ body {
 
 .navbar {
   display: inline-block;
+  text-align: center;
   height: 100px;
+  line-height: 100px;
+  width: 100%;
 
 }
 
@@ -43,15 +46,14 @@ body {
   background-color: #f9f9f9
 }
 
-.nav-left {
+.nav-left , .nav-cent , .nav.right , .logo , .titolo , .text {
   float: left;
-  font-weight: bold;
   height: 100%;
+  width: 33.3333%;
 }
 
-.nav-right {
-  float: right;
-  height: 100%;
+.navbar * span {
+  margin: 5px;
 }
 
 header {
@@ -68,9 +70,7 @@ header {
 }
 
 .logo , .titolo , .text {
-  float: left;
   text-align: center;
-  width: 33.3333%
 }
 
 .titolo {
